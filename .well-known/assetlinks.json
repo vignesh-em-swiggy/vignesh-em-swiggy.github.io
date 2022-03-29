@@ -1,35 +1,5 @@
-[
-    {
-        "relation": [
-            "delegate_permission/common.get_login_creds"
-        ],
-        "target": {
-            "namespace": "web",
-            "site": "https://www.swiggy.com"
-        }
-    },
-    {
-        "relation": [
-            "delegate_permission/common.get_login_creds"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "in.swiggy.android",
-            "sha256_cert_fingerprints": [
-                "40:2D:9C:9C:97:A0:A8:A5:82:1A:5D:EE:52:69:41:F1:92:9A:72:C6:CF:AF:EF:15:3B:96:02:C6:E9:E1:59:04"
-            ]
-        }
-    },
-    {
-        "relation": [
-            "delegate_permission/common.handle_all_urls"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "in.swiggy.android",
-            "sha256_cert_fingerprints": [
-                "40:2D:9C:9C:97:A0:A8:A5:82:1A:5D:EE:52:69:41:F1:92:9A:72:C6:CF:AF:EF:15:3B:96:02:C6:E9:E1:59:04"
-            ]
-        }
-    }
-]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "in.swiggy.android.prod",
+               "sha256_cert_fingerprints": ["50:85:6F:91:CC:B6:17:ED:B8:85:30:70:0B:D4:A2:D3:E5:26:A2:90:84:6F:68:C2:59:D7:43:AA:F6:7D:A4:AD"] }
+}]
